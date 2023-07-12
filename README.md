@@ -78,7 +78,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com) 
+- [Live Demo Link](https://abdullah97-pro.github.io/Portfolio-Mobile/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,10 +128,10 @@ You can deploy this project using:
 
 > Mention all of the collaborators of this project.
 
-👤 **Ishimwe Joseph**
+👤 **Abdullah Ahmadi**
 
 - GitHub: [@abdullah97-pro](https://github.com/abdullah97-pro)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Twitter: [@Abdulla54370110](https://twitter.com/Abdulla54370110)
 - LinkedIn: [abdullah-ahmadi](https://www.linkedin.com/in/abdullah-ahmadi-9528a0252/)
 
 
@@ -141,9 +141,9 @@ You can deploy this project using:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **Skills**
-- [ ] **Achievements**
-- [ ] **Linters**
+- [ ] **Nodejs setup**
+- [ ] **npm setup**
+- [ ] **Linters configuration**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
