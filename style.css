@@ -100,11 +100,11 @@ main {
   line-height: 24px;
 }
 
-#headline ul {
+main #headline ul {
   list-style-type: none;
 }
 
-#headline ul li {
+main #headline ul li {
   display: inline-flex;
   padding: 0 4px;
   margin: 10px 0;
