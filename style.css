@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
 :root {
   --background-main: #f0f2f5;
@@ -12,27 +12,49 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 main {
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   background-color: var(--background-main);
 }
 
 #toolbar {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 30px;
   background-color: var(--white);
 }
 
-#toolbar h1 {
+#toolbar nav {
+  width: 100%;
+}
+
+#toolbar nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+#toolbar nav ul li {
+  display: inline;
+}
+
+#toolbar nav ul li button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+#toolbar nav ul li a {
+  text-decoration: none;
   text-transform: capitalize;
   color: var(--primary-1);
   font-size: 18px;
   font-weight: 900;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   text-align: center;
   line-height: 20px;
@@ -42,7 +64,8 @@ main {
   height: 72vh;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  justify-content: center;
+  padding: 30px;
   background-color: var(--white);
   background-image: url(./header-shapes\ mobile.png);
   background-repeat: no-repeat;
@@ -51,11 +74,10 @@ main {
 }
 
 #headline h1 {
-  padding-top: 80px;
   color: var(--color2);
   font-size: 40px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   line-height: 52px;
 }
 
